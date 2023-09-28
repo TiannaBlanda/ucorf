@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION*2.8)
 
 project(ucorf)
 
@@ -37,3 +37,4 @@ install(PROGRAMS ${PROJECT_SOURCE_DIR}/proto_gen/plugin_pb2.py DESTINATION "bin"
 if (NOT NO_SUB)
     add_subdirectory("${PROJECT_SOURCE_DIR}/third_party/libgonet")
 endif()
+ 
